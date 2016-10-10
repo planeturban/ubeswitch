@@ -157,6 +157,7 @@
 <dimension x1="33" y1="14.8" x2="33" y2="-2.6" x3="43.18" y3="6.1" textsize="1.778" layer="48"/>
 <dimension x1="-0.73" y1="0.02" x2="-0.73" y2="-2.6" x3="-3.81" y3="-1.29" textsize="1.778" layer="48"/>
 <dimension x1="0.02" y1="44.075471875" x2="0.02" y2="0.03" x3="-12.7" y3="22.052734375" textsize="1.778" layer="48"/>
+<text x="15.654928125" y="37.465" size="1.27" layer="25" font="vector" align="center">Roberto</text>
 </plain>
 <libraries>
 <library name="74xx-eu">
