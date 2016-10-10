@@ -8912,7 +8912,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="transistor-neu-to92" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="M1206" value="330"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="M1206" value="1K"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>

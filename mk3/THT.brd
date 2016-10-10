@@ -1727,7 +1727,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <element name="T1" library="transistor-neu-to92" package="TO92-EBC" value="" x="2.06375" y="32.54375" smashed="yes" rot="R90">
 <attribute name="VALUE" x="5.23875" y="30.63875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="rcl" package="0207/2V" value="330" x="2.54" y="27.84" smashed="yes" rot="R180"/>
+<element name="R3" library="rcl" package="0207/2V" value="1K" x="2.54" y="27.84" smashed="yes" rot="R180"/>
 <element name="JP2" library="jumper" package="JP2" value="" x="1.905" y="39.859528125" smashed="yes" rot="SR90">
 <attribute name="NAME" x="4.553528125" y="36.576" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="6.223" y="36.303528125" size="1.27" layer="27" ratio="10" rot="SR90"/>

@@ -1806,7 +1806,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <element name="T1" library="transistor-neu-to92" package="SOT23-BEC" value="" x="3.33375" y="27.46375" smashed="yes" rot="R90">
 <attribute name="VALUE" x="6.50875" y="25.55875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R3" library="rcl" package="M1206" value="330" x="7.46125" y="27.94" smashed="yes" rot="R90">
+<element name="R3" library="rcl" package="M1206" value="1K" x="7.46125" y="27.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="7.46125" y="27.94" size="0.8128" layer="27" font="vector" rot="R90" align="center"/>
 </element>
 </elements>
