@@ -1762,7 +1762,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <element name="IC1" library="74xx-eu" package="SO16" value="744053D" x="15.654928125" y="29.020471875" smashed="yes">
 <attribute name="VALUE" x="11.844928125" y="28.258471875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="ATARIOUT" library="ube" package="ADADS" value="DIN13T" x="15.654928125" y="19.5" smashed="yes" rot="MR0"/>
+<element name="ATARIOUT" library="ube" package="ADADS" value="DIN13T" x="15.654928125" y="19.5" locked="yes" smashed="yes" rot="MR0"/>
 <element name="MONORESISTOR" library="rcl" package="0207/2V" value="100" x="25.10125" y="27.048821875" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.2942" y="25.488715625" size="0.4064" layer="25" font="vector" ratio="10" align="center"/>
 </element>
@@ -1770,21 +1770,21 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <attribute name="PROD_ID" value="SWCH-10651" x="1.724928125" y="34.417971875" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="2.994928125" y="35.687971875" size="0.6096" layer="28" rot="MR270"/>
 </element>
-<element name="X1" library="con-subd" package="HDF15V" value="" x="15.654928125" y="7.03238125" smashed="yes">
+<element name="X1" library="con-subd" package="HDF15V" value="" x="15.654928125" y="7.03238125" locked="yes" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="15.654928125" y="7.03238125" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="15.654928125" y="7.03238125" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.654928125" y="7.03238125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="15.654928125" y="7.03238125" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="5.494928125" y="0.68238125" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="AUDIO" library="con-lumberg" package="BTOR1" value="BTOR1" x="26.132428125" y="19.5" smashed="yes" rot="R135">
+<element name="AUDIO" library="con-lumberg" package="BTOR1" value="BTOR1" x="26.132428125" y="19.5" locked="yes" smashed="yes" rot="R135">
 <attribute name="OC_NEWARK" value="unknown" x="26.132428125" y="19.5" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MF" value="" x="26.132428125" y="19.5" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="OC_FARNELL" value="1217030" x="26.132428125" y="19.5" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="MPN" value="" x="26.132428125" y="19.5" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="NAME" x="26.132428125" y="16.9779375" size="0.8128" layer="25" font="vector" rot="R180" align="center"/>
 </element>
-<element name="VIDEO" library="con-lumberg" package="BTOR1" value="BTOR1" x="5.177428125" y="19.5" smashed="yes" rot="R45">
+<element name="VIDEO" library="con-lumberg" package="BTOR1" value="BTOR1" x="5.177428125" y="19.5" locked="yes" smashed="yes" rot="R45">
 <attribute name="OC_NEWARK" value="unknown" x="5.177428125" y="19.5" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MF" value="" x="5.177428125" y="19.5" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="OC_FARNELL" value="1217030" x="5.177428125" y="19.5" size="1.778" layer="27" rot="R45" display="off"/>
