@@ -1,8 +1,16 @@
-Male DIN-13 https://www.aliexpress.com/item/DIN-socket-13-PIN-Male-Inline-DIN-13-07F-Plug-Socket-Audio-AV-Connector/32613129753.html
-Regulator 78L05 - SOT-89 https://www.aliexpress.com/item/Y102-Free-shipping-10pcs-78L05-5V-100mA-SOT-89-SMD-voltage-regulator-78L05-20115/32704576539.html
-Switch https://www.aliexpress.com/item/10-pcs-Miniature-Slide-Switch-7-Pin-1P2T-SPDT-ON-ON-Right-Angle-SMT-SMD-PCB/32759880849.html
-TS5V330 - SOP16 https://www.aliexpress.com/item/5PCS-TS5V330DR-SOP16-TS5V330/32718177678.html
-RCA BTOR1 http://www.tme.eu/en/details/btor1r/rca-connectors/lumberg/btor-1-rot/
-Trimpot 100R CA6H http://www.tme.eu/en/details/ca6h-100/single-turn-tht-trimmers/acp/ca6h-100/
-VGA DB15F http://www.ebay.com/itm/170700551912?_trksid=p2057872.m2749.l2649
-Resistor 100R 1206 https://www.aliexpress.com/item/100pcs-Lot-5-1206-100R-SMD-Resistor-Chip-Resistor-Free-Shipping-YXSMDZ934/32261449239.html
+1. Male DIN-13 https://www.aliexpress.com/item/DIN-socket-13-PIN-Male-Inline-DIN-13-07F-Plug-Socket-Audio-AV-Connector/32613129753.html
+2. Regulator 78L05 - SOT-89 https://www.aliexpress.com/item/Y102-Free-shipping-10pcs-78L05-5V-100mA-SOT-89-SMD-voltage-regulator-78L05-20115/32704576539.html
+3. Switch https://www.aliexpress.com/item/10-pcs-Miniature-Slide-Switch-7-Pin-1P2T-SPDT-ON-ON-Right-Angle-SMT-SMD-PCB/32759880849.html
+4. TS5V330 - SOP16 https://www.aliexpress.com/item/5PCS-TS5V330DR-SOP16-TS5V330/32718177678.html
+5. RCA BTOR1 http://www.tme.eu/en/details/btor1r/rca-connectors/lumberg/btor-1-rot/
+6. Trimpot 100R CA6H http://www.tme.eu/en/details/ca6h-100/single-turn-tht-trimmers/acp/ca6h-100/
+7. VGA DB15F http://www.ebay.com/itm/170700551912?_trksid=p2057872.m2749.l2649
+8. Resistor 100R 1206 https://www.aliexpress.com/item/100pcs-Lot-5-1206-100R-SMD-Resistor-Chip-Resistor-Free-Shipping-YXSMDZ934/32261449239.html
+
+
+Notes:
+BTOR1s can be omitted if you're using runnig VGA on a STE, no need for composite output or two mono audio channels. 
+If omitting BTOR1s, switch S2 won't be needed. You can run a patch wire if you don't need the switching capabilities. Top pad is audio, bottom is video, middle connected to VIDEO BTOR1.
+100R resistor, picture gets quite dark with it so either use a lower value or just add a solder blob. It's there since "all" documentation says it should be.
+
+78L05, there should be no problem transforming 12V to 5V since the TS5V330 has a max power consumption of 3uA.

@@ -1823,15 +1823,15 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <wire x1="9.144" y1="29.8704" x2="11.176" y2="31.9024" width="0.254" layer="1"/>
 <wire x1="8.5344" y1="29.8704" x2="9.144" y2="29.8704" width="0.254" layer="1"/>
 <wire x1="11.9888" y1="26.416" x2="8.5344" y2="29.8704" width="0.254" layer="16"/>
-<wire x1="11.9888" y1="24.5872" x2="11.9888" y2="26.416" width="0.254" layer="16"/>
-<wire x1="11.9888" y1="22.9616" x2="11.9888" y2="24.5872" width="0.254" layer="1"/>
+<wire x1="11.9888" y1="24.06935625" x2="11.9888" y2="26.416" width="0.254" layer="16"/>
+<wire x1="11.9888" y1="22.9616" x2="11.9888" y2="24.06935625" width="0.254" layer="1"/>
 <wire x1="13.0048" y1="21.9456" x2="11.9888" y2="22.9616" width="0.254" layer="1"/>
 <wire x1="17.0688" y1="21.9456" x2="13.0048" y2="21.9456" width="0.254" layer="1"/>
 <wire x1="18.0848" y1="20.9296" x2="17.0688" y2="21.9456" width="0.254" layer="1"/>
 <wire x1="14.224" y1="34.9504" x2="14.384928125" y2="35" width="0.254" layer="1"/>
 <wire x1="18.0848" y1="20.9296" x2="18.174928125" y2="20.77" width="0.254" layer="1"/>
 <via x="8.5344" y="29.8704" extent="1-16" drill="0.3302"/>
-<via x="11.9888" y="24.5872" extent="1-16" drill="0.3302"/>
+<via x="11.9888" y="24.06935625" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="ARED">
 <contactref element="ATARIOUT" pad="7"/>
@@ -1866,9 +1866,9 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <wire x1="7.5184" y1="30.6832" x2="3.6576" y2="34.544" width="0.254" layer="16"/>
 <wire x1="8.7376" y1="30.6832" x2="7.5184" y2="30.6832" width="0.254" layer="16"/>
 <wire x1="14.6304" y1="24.7904" x2="8.7376" y2="30.6832" width="0.254" layer="16"/>
-<wire x1="15.0368" y1="24.7904" x2="14.6304" y2="24.7904" width="0.254" layer="16"/>
-<wire x1="15.6464" y1="24.7904" x2="15.0368" y2="24.7904" width="0.254" layer="1"/>
-<wire x1="17.0688" y1="23.368" x2="15.6464" y2="24.7904" width="0.254" layer="1"/>
+<wire x1="14.77794375" y1="24.411975" x2="14.6304" y2="24.7904" width="0.254" layer="16"/>
+<wire x1="16.343325" y1="24.39205625" x2="14.77794375" y2="24.411975" width="0.254" layer="1"/>
+<wire x1="17.0688" y1="23.368" x2="16.343325" y2="24.39205625" width="0.254" layer="1"/>
 <wire x1="17.0688" y1="22.7584" x2="17.0688" y2="23.368" width="0.254" layer="1"/>
 <wire x1="17.8816" y1="21.9456" x2="17.0688" y2="22.7584" width="0.254" layer="1"/>
 <wire x1="18.4912" y1="21.9456" x2="17.8816" y2="21.9456" width="0.254" layer="1"/>
@@ -1877,7 +1877,7 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <wire x1="18.288" y1="18.288" x2="19.304" y2="19.304" width="0.254" layer="1"/>
 <wire x1="3.6576" y1="34.9504" x2="3.589928125" y2="35" width="0.254" layer="16"/>
 <wire x1="18.288" y1="18.288" x2="18.174928125" y2="18.27" width="0.254" layer="1"/>
-<via x="15.0368" y="24.7904" extent="1-16" drill="0.3302"/>
+<via x="14.77794375" y="24.411975" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="MONOSIGNAL">
 <contactref element="MONORESISTOR" pad="1"/>
@@ -2045,13 +2045,13 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 <contactref element="TS5V330" pad="1"/>
 <contactref element="S1" pad="2"/>
 <wire x1="6.2992" y1="19.1008" x2="4.4704" y2="19.1008" width="0.254" layer="1"/>
-<wire x1="10.5664" y1="23.368" x2="6.2992" y2="19.1008" width="0.254" layer="16"/>
-<wire x1="10.5664" y1="24.1808" x2="10.5664" y2="23.368" width="0.254" layer="1"/>
-<wire x1="12.5984" y1="26.2128" x2="10.5664" y2="24.1808" width="0.254" layer="1"/>
+<wire x1="11.123940625" y1="23.368" x2="6.2992" y2="19.1008" width="0.254" layer="16"/>
+<wire x1="11.143853125" y1="24.9774875" x2="11.123940625" y2="23.368" width="0.254" layer="1"/>
+<wire x1="12.5984" y1="26.2128" x2="11.143853125" y2="24.9774875" width="0.254" layer="1"/>
 <wire x1="4.4704" y1="19.1008" x2="4.43" y2="18.935" width="0.254" layer="1"/>
 <wire x1="12.5984" y1="26.2128" x2="12.479928125" y2="26.4" width="0.254" layer="1"/>
 <via x="6.2992" y="19.1008" extent="1-16" drill="0.3302"/>
-<via x="10.5664" y="23.368" extent="1-16" drill="0.3302"/>
+<via x="11.123940625" y="23.368" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="+5V">
 <contactref element="S1" pad="3"/>
