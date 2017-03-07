@@ -1,3 +1,4 @@
 *.lck
 *.[bs]#*
 *.pro
+.DS_Store
