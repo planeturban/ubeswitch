@@ -7688,14 +7688,12 @@ Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datashee
 <segment>
 <pinref part="AUDIO" gate="G$1" pin="1"/>
 <wire x1="74.676" y1="-6.35" x2="67.056" y2="-6.35" width="0.1524" layer="91"/>
-<wire x1="67.056" y1="-6.35" x2="67.056" y2="8.636" width="0.1524" layer="91"/>
-<wire x1="67.056" y1="8.636" x2="67.056" y2="8.89" width="0.1524" layer="91"/>
-<wire x1="67.056" y1="8.89" x2="61.976" y2="8.89" width="0.1524" layer="91"/>
-<label x="56.896" y="8.89" size="1.778" layer="95"/>
-<wire x1="67.056" y1="8.89" x2="67.056" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="O"/>
-<wire x1="67.056" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
-<junction x="67.056" y="8.89"/>
+<wire x1="67.056" y1="-6.35" x2="67.056" y2="17.78" width="0.1524" layer="91"/>
+<label x="56.896" y="19.05" size="1.778" layer="95"/>
+<pinref part="S2" gate="1" pin="S"/>
+<wire x1="68.58" y1="17.78" x2="67.056" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
+<junction x="68.58" y="17.78"/>
 </segment>
 <segment>
 <pinref part="ATARIOUT" gate="G$1" pin="T"/>
@@ -7705,15 +7703,14 @@ Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datashee
 </net>
 <net name="AVIDEO" class="0">
 <segment>
-<wire x1="61.976" y1="16.51" x2="68.58" y2="16.51" width="0.1524" layer="91"/>
-<label x="56.896" y="16.51" size="1.778" layer="95"/>
-<pinref part="S2" gate="1" pin="S"/>
-<wire x1="68.58" y1="17.78" x2="68.58" y2="16.51" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="ATARIOUT" gate="G$2" pin="T"/>
 <wire x1="45.212" y1="19.05" x2="35.052" y2="19.05" width="0.1524" layer="91"/>
 <label x="32.512" y="19.05" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S2" gate="1" pin="O"/>
+<wire x1="68.58" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="55.88" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AHSYNC" class="0">
