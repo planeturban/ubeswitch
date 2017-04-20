@@ -9,8 +9,8 @@
 
 
 Notes:
-BTOR1s can be omitted if you're runnig VGA on a STE, no need for composite output or two mono audio channels. 
-If omitting BTOR1s, switch S2 won't be needed. You can run a patch wire if you don't need the switching capabilities. Top pad is audio, bottom is video, middle connected to VIDEO BTOR1.
+BTOR1s can be omitted if you're running VGA on a STE, no need for composite output or two mono audio channels. 
+If omitting BTOR1s, switch S2 won't be needed. You can run a patch wire if you don't need the switching capabilities. Top pad is video, bottom is autio, middle connected to VIDEO BTOR1.
 100R resistor, picture gets quite dark with it so either use a lower value or just add a solder blob. It's there since "all" documentation says it should be.
 Trim pots can be omitted as well, but you'll probably want to add resistors instead; top to left.
 
