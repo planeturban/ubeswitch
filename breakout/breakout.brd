@@ -75,6 +75,8 @@
 <text x="16.31" y="8.5725" size="0.8128" layer="25" font="vector" align="bottom-right">Vsync</text>
 <text x="1.27" y="3.81" size="0.8128" layer="25" font="vector">GND</text>
 <text x="17.0275" y="3.81" size="0.8128" layer="25" font="vector">GND</text>
+<dimension x1="0" y1="20.31" x2="0" y2="2.8575" x3="-1.27" y3="11.58375" textsize="1.778" layer="48"/>
+<dimension x1="19.99" y1="20.31" x2="0" y2="20.31" x3="9.995" y3="21.59" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="ube">
@@ -458,14 +460,14 @@ Please ensure your boards meet these minimum design rule requirements.</descript
 </signal>
 <signal name="GND">
 <polygon width="0.4064" layer="16">
-<vertex x="0" y="20.955"/>
-<vertex x="20.32" y="20.955"/>
+<vertex x="0" y="20.32"/>
+<vertex x="20.32" y="20.32"/>
 <vertex x="20.32" y="2.8575"/>
 <vertex x="0" y="2.8575"/>
 </polygon>
 <polygon width="0.4064" layer="1">
-<vertex x="0" y="20.955"/>
-<vertex x="20.32" y="20.955"/>
+<vertex x="0" y="20.32"/>
+<vertex x="20.32" y="20.32"/>
 <vertex x="20.32" y="2.8575"/>
 <vertex x="0" y="2.8575"/>
 </polygon>
