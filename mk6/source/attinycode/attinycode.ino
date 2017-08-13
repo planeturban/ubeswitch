@@ -14,17 +14,18 @@
 #define buttonPin PB0       // Connected to switch
 #define selectPin PB1     // TS5V330 pin 1
 #define pulsePin PB2       // VSync
-#define switchTime 500
-#define saveTime 2000
+#define switchTime 500000
+#define saveTime 2000000
+#define bootWait 4000
 
 unsigned long buttonPressedTime;
-int pulseRead = 0;
+//int bootWait = 4000000;
 //unsigned long pulseThreshold = 220;
 int pulseThreshold = 15000;
 
 
-bool state;
-bool lastState;
+byte state;
+byte lastState;
 
 
 unsigned long pulse = 0;
@@ -34,7 +35,7 @@ void setup() {
   DDRB |= bit(selectPin);
   state = EEPROM.read(0);
   bitWrite(PORTB, selectPin, state);
-  delay(2000);
+  _delay_ms(bootWait); // Wait for computer to stabilize, 3s seems ok.
   lastState = state;
 }
 
@@ -44,11 +45,10 @@ void loop() {
   /*
      Detection..
   */
-
-
-
-  state = pulseIn(pulsePin, HIGH, 1000000L);  // Ugly, but it saved 30 bytes over "state = pulseIn(pulsePin, HIGH, 1000000L) < pulseThreshold;"
-  state = state < pulseThreshold;
+  pulse = 0;
+  while ( ! pulse)
+    pulse = pulseIn(pulsePin, HIGH, 1000000L);
+  state = pulse < pulseThreshold;
 
   if ( state != lastState )
     bitWrite(PORTB, selectPin, state);
@@ -57,27 +57,22 @@ void loop() {
   /*
        Button, save and switch.
   */
+
   if ( !bitRead(PINB, buttonPin) ) {
-    buttonPressedTime = millis();
+    buttonPressedTime = micros();
     while ( ! bitRead(PINB, buttonPin)); // Ugly debounce
-    if ( millis() > saveTime  + buttonPressedTime ) {
-#ifdef __AVR_ATtiny13__
-      EEPROM.update(0, state);
-#else
+    if ( micros() > saveTime  + buttonPressedTime ) {
       EEPROM.write(0, state);
-#endif
-
-
-    } else if ( millis() > buttonPressedTime + switchTime ) {
+    } else if ( micros() > buttonPressedTime + switchTime ) {
       PORTB ^= bit(selectPin);
-      delay(1000);
+      _delay_ms(1000); // Wait for computer to reboot and get its shit togheter.
     }
   }
 }
 
 unsigned long getPulse() {
-/* Works with atmega... */
-  
+  /* Works with atmega... */
+
   pulse = bitRead(PINB, pulsePin);
   while ( bitRead(PINB, pulsePin) == pulse);
   unsigned long pstart = micros();
