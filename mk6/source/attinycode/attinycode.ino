@@ -14,7 +14,7 @@
 #define buttonPin PB0       // Connected to switch
 #define selectPin PB1     // TS5V330 pin 1
 #define pulsePin PB2       // VSync
-#define switchTime 500000
+#define switchTime 250000
 #define saveTime 2000000
 #define bootWait 4000
 
