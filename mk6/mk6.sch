@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -2082,8 +2083,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="TACTILE_SWITCH-SMD-RIGHT-ANGLE">
 <hole x="0" y="0.9" drill="0.7"/>
 <hole x="0" y="-0.9" drill="0.7"/>
-<smd name="1" x="-1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="1" x="-2.2548" y="0" dx="2" dy="1.2192" layer="1" rot="R90"/>
+<smd name="2" x="2.2548" y="0" dx="2" dy="1.2192" layer="1" rot="R90"/>
 <wire x1="-2" y1="1.2" x2="-2" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
 <wire x1="2" y1="1.5" x2="2" y2="1.2" width="0.127" layer="21"/>
